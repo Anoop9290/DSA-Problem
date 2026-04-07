@@ -5,10 +5,7 @@ target/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -37,3 +34,23 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+
+### OS Generated ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+
+### Cursor IDE ###
+.cursor/
